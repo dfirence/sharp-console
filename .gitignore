@@ -1,1 +1,6 @@
+# Csharp
+**/bin
+**/obj
+
+# Javascript
 **/node_modules
