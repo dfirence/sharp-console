@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (MyProject)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/MyProject/bin/Debug/net8.0/MyProject.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/MyProject",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": ".NET Tests (MyProject.Tests)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/MyProject.Tests/bin/Debug/net8.0/MyProject.Tests.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/tests/MyProject.Tests",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}

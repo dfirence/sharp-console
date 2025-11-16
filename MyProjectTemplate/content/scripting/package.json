@@ -4,12 +4,6 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "benchmark": "cd tests/MyProject.Benchmarks && dotnet run",
-    "build": "cd MyProject && dotnet build",
-    "build:release": "cd MyProject && dotnet build -c Release",
-    "run": "cd MyProject && dotnet run",
-    "run:release": "cd MyProject && dotnet run -c Release",
-    "test": "cd tests/MyProject.Tests && dotnet test"
   },
   "devDependencies": {
     "@types/bun": "latest"
